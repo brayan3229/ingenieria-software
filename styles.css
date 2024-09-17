@@ -1,0 +1,51 @@
+
+body {
+    background-image: url('Gif.gif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+
+
+p {
+    text-align: justify;
+}
+
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%; 
+    overflow: auto;
+    box-shadow: 10px 10px 10px rgba(50, 173, 13, 0.6); 
+    background-color: white; 
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown-content a {
+    display: block;
+    color: #e01818;
+    padding: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+
+.dropdown-content a:hover {
+    color: #d8ee15;
+    background-color: #fa004b;
+}
+
+  
